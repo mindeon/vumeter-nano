@@ -3,10 +3,10 @@
 // Adjusted to allow brightness changes on press+hold, Auto-cycle for 3 button presses within 2 seconds
 // Edited to add Neomatrix support for easier compatibility with different layouts.
 
+#include <Arduino.h>
 #include <FastLED_NeoMatrix.h>
 #include <arduinoFFT.h>
 #include <EasyButton.h>
-#include <Arduino.h>
 
 void whitePeak(int band);
 void outrunPeak(int band);
