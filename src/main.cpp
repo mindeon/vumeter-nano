@@ -370,7 +370,7 @@ void outrunPeak(int band)
 void waterfall(int band)
 {
   int xStart = BAR_WIDTH * band;
-  double highestBandValue = 40000; // Set this to calibrate your waterfall
+  double highestBandValue = 32768; // Set this to calibrate your waterfall
 
   // Draw bottom line
   for (int x = xStart; x < xStart + BAR_WIDTH; x++)
